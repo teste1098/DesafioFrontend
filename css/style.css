@@ -1,0 +1,91 @@
+body {
+  background-image: url(../img/imagem_paggo_superior.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  overflow-x: hidden;
+  background-color: #8a2be2;
+  font-family: sans-serif;
+}
+
+header h1 {
+  color: #fff;
+  font-size: 50px;
+}
+@media screen and (max-width: 767px) {
+  header h1 {
+    font-size: 37px;
+  }
+}
+
+section.form .formulario {
+  background-color: #fff;
+  height: 800px;
+  width: 50vw;
+  padding-top: 20px;
+  border-radius: 20px;
+}
+section.form input[type=checkbox]::before {
+  content: " ";
+  width: inherit;
+  height: inherit;
+  position: absolute;
+  background-color: #fff;
+  border: 1px solid #8a2be2;
+}
+section.form input[type=checkbox]:checked::after {
+  content: " ";
+  width: 0.2rem;
+  height: 0.5rem;
+  margin-left: 0.3rem;
+  border-color: #8a2be2;
+  border-style: solid;
+  border-width: 0 3px 3px 0;
+  position: absolute;
+  transform: rotate(45deg);
+}
+section.form #text {
+  margin-top: 20px;
+}
+section.form #qtde {
+  width: 20vw;
+  border: 1px solid #8a2be2;
+}
+section.form #qtde:focus {
+  outline: 0;
+}
+section.form textarea {
+  background-color: #dce3e8;
+  width: 30vw;
+  height: 134px;
+  font-size: 10px;
+  padding: 5px;
+  border: 1px solid #8a2be2;
+}
+section.form textarea:focus {
+  outline: 0;
+}
+section.form .btn-enviar {
+  width: 10vw;
+  height: 30px;
+  margin-top: 200px;
+  margin-left: 20vw;
+  border: none;
+  background-color: #8a2be2;
+  color: #fff;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+@media screen and (max-width: 767px) {
+  section.form .formulario {
+    width: 92vw;
+  }
+  section.form textarea {
+    width: 64vw;
+  }
+  section.form .btn-enviar {
+    width: 30vw;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
