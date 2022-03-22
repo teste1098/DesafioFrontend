@@ -84,9 +84,17 @@ section.form a:focus {
 section.form a:hover {
   border-style: none;
 }
+@media screen and (max-width: 1280px) {
+  section.form #qtde {
+    width: 30vw;
+  }
+}
 @media screen and (max-width: 767px) {
   section.form .formulario {
     width: 92vw;
+  }
+  section.form #qtde {
+    width: 64vw;
   }
   section.form textarea {
     width: 64vw;
