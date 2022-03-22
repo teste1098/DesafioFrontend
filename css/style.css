@@ -71,10 +71,18 @@ section.form .btn-enviar {
   margin-left: 20vw;
   border: none;
   background-color: #8a2be2;
-  color: #fff;
   border-radius: 5px;
   text-transform: uppercase;
-  font-size: 15px;
+}
+section.form a {
+  color: #fff;
+  font-size: 12px;
+}
+section.form a:focus {
+  border-style: none;
+}
+section.form a:hover {
+  border-style: none;
 }
 @media screen and (max-width: 767px) {
   section.form .formulario {
@@ -85,6 +93,9 @@ section.form .btn-enviar {
   }
   section.form .btn-enviar {
     width: 30vw;
+  }
+  section.form .btn-pagar {
+    font-size: 10px;
   }
 }
 
