@@ -1,5 +1,5 @@
 # DesafioFrontend
-Desafio de desenvolvimento para a vaga de front-end.
+Desafio de desenvolvimento para a vaga de front-end júnior.
 
 
 ## Desafio: implementação de um formulário.
